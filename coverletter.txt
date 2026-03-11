@@ -1,0 +1,31 @@
+Mini Linux Shell Project
+
+Course: COMP 2362: Systems II
+Instructor: Stevenson
+Quarter: Winter
+
+Student Name: Isaac Nee
+Partner: Kass Gifford
+
+Project Description:
+This submission contains a C implementation of a mini Linux shell.
+
+The shell supports:
+1. Displaying a prompt with the current working directory
+2. Parsing and executing user commands in a loop
+3. Built-in shell commands (cd, exit)
+4. Executing Linux programs using fork, execvp, and waitpid
+5. Input and output redirection using < and >
+6. Background process execution using &
+7. Proper handling of background processes with no zombie processes
+8. Command history support (history and !N) for extra credit
+
+Files Submitted:
+minishell.c
+
+ompilation Instructions:
+gcc -Wall -Wextra -std=c11 minishell.c -o minishell
+
+Execution Instructions:
+./minishell
+
